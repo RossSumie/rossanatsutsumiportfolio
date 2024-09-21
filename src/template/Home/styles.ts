@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-    font-size: 2rem;
-    color: black;
+    color: ${({ theme }) => theme.colors.primary.dark};
+    font-family: 'Playfair Display';
+    font-size: 30px;
 `;
 
 export const Container = styled.div`

@@ -1,32 +1,40 @@
-export const theme = {
+const defaultTheme = {
     colors: {
-        white: '#ffffff',
-        black: '#000000',
-        background: '#F2F2F2',
-        dark_teal: '#005F60',
-        medium_teal: '#008083',
-        light_teal: '#249EA0',
-        light_orange: '#FAAB36',
-        medium_orange: '#F78104',
-        dark_orange: '#FD5901',
-
-        typograph: {
-            black: '#000000',
-            white: '#fff',
-            red: '#B11016',
-            gray: '#53565A'
+        primary: {
+            light: '#97CECC',
+            main: '#12908E',
+            dark: '#16594A'
         },
-
-        status: {
-            green: '#4EAD21',
-            orange: '#FF8C22',
-            red: '#FF3E3E'
+        secondary: {
+            light: '#F98F45',
+            main: '#F78104',
+            dark: '#C4421A'
         }
     },
+    space: [4, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 256],
+    radii: {
+        sm: 8,
+        md: 16,
+        lg: 32
+    },
+    fontSizes: {
+        1: '12px',
+        2: '13px',
+        3: '15px'
+    },
+    fonts: {
+        body: 'Lato, sans-serif',
+        heading: 'Playfair Display, serif'
+    },
 
-    font: {
-        Montserrat: 'Montserrat_400Regular',
-        MontserratSemi: 'Montserrat_600SemiBold',
-        MontserratBold: 'Montserrat_700Bold'
-    }
+    lineHeights: {},
+    letterSpacings: {},
+    sizes: {},
+    borderWidths: {},
+    borderStyles: {},
+    shadows: {},
+    zIndices: {},
+    transitions: {}
 };
+
+export default defaultTheme;
