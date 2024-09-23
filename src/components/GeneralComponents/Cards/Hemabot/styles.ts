@@ -25,13 +25,13 @@ export const LeftContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 50%;
 `;
 
 export const RightContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: left;
+    width: 50%;
 `;
 
 export const Title = styled.h1`
