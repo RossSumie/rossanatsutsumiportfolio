@@ -6,7 +6,7 @@ const defaultTheme = {
             dark: '#16594A'
         },
         secondary: {
-            light: '#F98F45',
+            light: '#FAC299',
             main: '#F78104',
             dark: '#C4421A'
         }
@@ -23,7 +23,7 @@ const defaultTheme = {
         3: '15px'
     },
     fonts: {
-        body: 'Lato, sans-serif',
+        body: 'Lato, sans-serif', // Lato for body text
         heading: 'Playfair Display, serif'
     },
 

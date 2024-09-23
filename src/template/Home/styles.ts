@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
-    color: ${({ theme }) => theme.colors.primary.dark};
-    font-family: 'Playfair Display';
-    font-size: 30px;
-`;
-
-export const Container = styled.div`
+// Wrapper para englobar todo o conteúdo e receber a cor de fundo
+export const Wrapper = styled.div`
     display: flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: 440vh; // Garante que a página seja longa para permitir o scroll
+    transition: background-color 0.5s ease; // Suaviza a transição de cor
+    width: 100%;
 `;
