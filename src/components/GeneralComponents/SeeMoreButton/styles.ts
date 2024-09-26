@@ -10,14 +10,14 @@ export const Button = styled.button`
 
 export const ButtonText = styled.h1`
     color: ${({ theme }) => theme.colors.secondary.dark};
-    font-size: 20px;
+    font-size: 24px;
     margin-right: 8px;
     font-family: 'Playfair Display';
 `;
 
 export const ButtonTextTeal = styled.h1`
     color: ${({ theme }) => theme.colors.primary.dark};
-    font-size: 20px;
+    font-size: 24px;
     margin-right: 8px;
     font-family: 'Playfair Display';
 `;

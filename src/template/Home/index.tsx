@@ -5,6 +5,7 @@ import VolvoHS from 'components/GeneralComponents/Cards/VovoHs';
 import Hemabot from 'components/GeneralComponents/Cards/Hemabot';
 import SPOD from 'components/GeneralComponents/Cards/SPOD';
 import Footer from 'components/GeneralComponents/Cards/Footer';
+import NavBar from 'components/GeneralComponents/NavBar';
 import * as S from './styles';
 
 const HomeTemplate = () => {
@@ -35,6 +36,7 @@ const HomeTemplate = () => {
 
     return (
         <S.Wrapper style={{ backgroundColor }}>
+            <NavBar text="VOLVOHS" text1="HEMABOT" text2="SPOD" />
             <InitialCard />
             <VolvoHS />
             <Hemabot />
@@ -45,3 +47,5 @@ const HomeTemplate = () => {
 };
 
 export default HomeTemplate;
+
+/*            */
