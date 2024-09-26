@@ -76,7 +76,7 @@ const SPOD = () => {
                 </S.LeftContainer>
                 <S.RightContainer>
                     <img
-                        src="/assets/VolvoHS_Mockup.png"
+                        src="/assets/SPOD_Mockup.png"
                         height={ImageHeight}
                         alt="logo"
                     />
