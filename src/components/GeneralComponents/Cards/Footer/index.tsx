@@ -16,13 +16,13 @@ const Footer = () => {
                 <S.RightOuter>
                     <img src="/assets/Logo_Poli.png" height={80} alt="logo" />
                     <S.RightContainer>
-                        <S.Subtitle>
+                        <S.Body>
                             POLYTECHNIC SCHOOL OF THE UNIVERSITY OF SÃO PAULO
-                        </S.Subtitle>
-                        <S.Subtitle>
-                            Bacheolor's degree in Electrical Engineering with an
-                            emphasis on Electronics and Embedded Systems
-                        </S.Subtitle>
+                        </S.Body>
+                        <S.Body>
+                            Electrical Engineering for Electronics and Embedded
+                            Systems Department
+                        </S.Body>
                     </S.RightContainer>
                 </S.RightOuter>
             </S.InnerContainer>

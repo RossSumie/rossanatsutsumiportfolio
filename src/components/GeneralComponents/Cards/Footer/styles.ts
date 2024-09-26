@@ -31,9 +31,11 @@ export const InnerContainer = styled.div`
     }
     @media screen and (max-width: ${breakpoints.tablet}) {
         flex-direction: column;
+        padding: 0 16px 0 16px;
     }
     @media screen and (max-width: ${breakpoints.mobile}) {
         flex-direction: column;
+        padding: 0 16px 0 16px;
     }
 `;
 
@@ -62,17 +64,36 @@ export const RightContainer = styled.div`
 export const RightOuter = styled.div`
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        flex-direction: column;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        flex-direction: column;
+    }
 `;
 
 export const Title = styled.h1`
     color: black;
     font-family: 'Playfair Display';
     font-size: 24px;
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        font-size: 22px;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        font-size: 22px;
+    }
 `;
 
 export const Subtitle = styled.p`
     color: black;
     font-family: 'Lato';
     font-size: 16px;
+    margin-top: 6px;
+`;
+
+export const Body = styled.p`
+    font-size: 14px;
+    text-align: center;
     margin-top: 6px;
 `;

@@ -37,7 +37,7 @@ const Hemabot = () => {
             <S.InnerContainer>
                 <S.LeftContainer>
                     <img
-                        src="/assets/VolvoHS_Mockup.png"
+                        src="/assets/Hemabot_Mockup2.png"
                         height={ImageHeight}
                         alt="logo"
                     />
