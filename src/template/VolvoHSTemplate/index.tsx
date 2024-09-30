@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import * as S from './styles';
 
 const VolvoHSTemplate = () => {
-    const ImageSizes = {
+    /* const ImageSizes = {
         desktop: 450,
         tablet: 300,
         mobile: 200
@@ -28,7 +28,7 @@ const VolvoHSTemplate = () => {
         return () => {
             window.removeEventListener('resize', updateImageHeight);
         };
-    }, []);
+    }, []); */
 
     return (
         <S.Wrapper>
