@@ -1,14 +1,22 @@
 /* eslint-disable react/no-unescaped-entities */
+import { useRouter } from 'next/router';
 import * as S from './styles';
 
 export type SeeMoreButtonProps = {
     text: string;
     teal: boolean;
+    href: string;
 };
 
-const SeeMoreButton: React.FC<SeeMoreButtonProps> = ({ text, teal }) => {
+const SeeMoreButton: React.FC<SeeMoreButtonProps> = ({ text, teal, href }) => {
+    const router = useRouter(); // Initialize router
+
+    const handleClick = () => {
+        router.push(href); // Redirect to the specified route
+    };
+
     return (
-        <S.Button>
+        <S.Button onClick={handleClick}>
             {teal ? (
                 <>
                     <S.ButtonTextTeal>{text}</S.ButtonTextTeal>

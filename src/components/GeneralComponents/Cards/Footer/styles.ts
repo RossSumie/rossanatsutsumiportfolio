@@ -17,6 +17,17 @@ export const Container = styled.div`
     gap: 3rem;
     padding: 32px 0 32px 0;
     margin-bottom: 32px;
+    @media screen and (max-width: ${breakpoints.desktop}) {
+        flex-direction: row;
+    }
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        flex-direction: column;
+        padding: 32px 16px 32px 16px;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        flex-direction: column;
+        padding: 32px 16px 32px 16px;
+    }
 `;
 
 export const InnerContainer = styled.div`

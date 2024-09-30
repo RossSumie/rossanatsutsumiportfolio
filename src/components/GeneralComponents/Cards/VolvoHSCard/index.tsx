@@ -3,7 +3,7 @@ import SeeMoreButton from 'components/GeneralComponents/SeeMoreButton';
 import { useEffect, useState } from 'react';
 import * as S from './styles';
 
-const VolvoHS = () => {
+const VolvoHSCard = () => {
     const ImageSizes = {
         desktop: 450,
         tablet: 300,
@@ -80,7 +80,11 @@ const VolvoHS = () => {
                             managers.
                         </S.BodyText>
                     </S.BodyCombinationContainer>
-                    <SeeMoreButton teal={false} text="Read More" />
+                    <SeeMoreButton
+                        href="/VolvoHS"
+                        teal={false}
+                        text="Read More"
+                    />
                 </S.LeftContainer>
                 <S.RightContainer>
                     <img
@@ -94,4 +98,4 @@ const VolvoHS = () => {
     );
 };
 
-export default VolvoHS;
+export default VolvoHSCard;

@@ -6,6 +6,7 @@ export const Button = styled.button`
     border: none;
     align-items: center;
     margin-top: 16px;
+    cursor: pointer;
 `;
 
 export const ButtonText = styled.h1`

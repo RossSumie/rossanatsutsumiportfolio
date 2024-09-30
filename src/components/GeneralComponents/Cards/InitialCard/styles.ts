@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
     color: ${({ theme }) => theme.colors.primary.dark};
     font-family: 'Playfair Display';
-    font-size: 30px;
+    font-size: 48px;
     text-align: center;
 `;
 

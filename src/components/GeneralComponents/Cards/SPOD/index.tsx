@@ -72,7 +72,11 @@ const SPOD = () => {
                             SUGAR international university network.
                         </S.BodyText>
                     </S.BodyCombinationContainer>
-                    <SeeMoreButton teal={false} text="Read More" />
+                    <SeeMoreButton
+                        href="/VolvoHS"
+                        teal={false}
+                        text="Read More"
+                    />
                 </S.LeftContainer>
                 <S.RightContainer>
                     <img
