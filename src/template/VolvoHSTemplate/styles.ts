@@ -60,7 +60,7 @@ export const RightSideBlock = styled.div`
 `;
 
 export const Title1 = styled.h1`
-    font-family: 'Playfair Display';
+    font-family: 'Lato';
     color: ${({ theme }) => theme.colors.secondary.main};
     font-size: 40px;
     @media screen and (max-width: ${breakpoints.desktop}) {

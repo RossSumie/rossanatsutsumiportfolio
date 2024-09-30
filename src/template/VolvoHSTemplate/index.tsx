@@ -33,7 +33,7 @@ const VolvoHSTemplate = () => {
     return (
         <S.Wrapper>
             <S.Container>
-                <S.MainTitle>Page Under Maintenance</S.MainTitle>
+                <S.MainTitle>PAGE UNDER MAINTENANCE </S.MainTitle>
             </S.Container>
         </S.Wrapper>
     );
