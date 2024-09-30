@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400vh; //
+    height: auto;
     background-color: ${({ theme }) => theme.colors.secondary.dark};
     width: 100%;
 `;
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
     background-color: white;
     border-radius: 16px;
-    margin-top: 10vh;
+    margin: 10vh 0 10vh 0;
     height: auto;
     width: 80vw;
 `;
@@ -129,6 +129,28 @@ export const Body = styled.p`
     font-size: 20px;
     text-align: justify;
     margin-bottom: 8px;
+    @media screen and (max-width: ${breakpoints.desktop}) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        font-size: 14px;
+        line-height: 16px;
+    }
+`;
+
+export const Quote = styled.p`
+    color: black;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    margin: 48px;
+    width: 80%;
     @media screen and (max-width: ${breakpoints.desktop}) {
         font-size: 16px;
         line-height: 20px;
