@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400vh; //
+    min-height: 400vh; //
     transition: background-color 0.5s ease; // Suaviza a transição de cor
     width: 100%;
 `;

@@ -15,7 +15,7 @@ export const Container = styled.div`
     z-index: 2;
     flex-direction: column;
     gap: 3rem;
-    padding: 32px 0 32px 0;
+    padding: 32px 0 48px 0;
     margin-bottom: 32px;
     @media screen and (max-width: ${breakpoints.desktop}) {
         flex-direction: row;

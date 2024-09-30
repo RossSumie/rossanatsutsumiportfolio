@@ -5,8 +5,10 @@ import * as S from './styles';
 
 const VolvoHSCard = () => {
     const ImageSizes = {
-        desktop: 450,
-        tablet: 300,
+        desktop_b: 500,
+        desktop_m: 400,
+        desktop: 300,
+        tablet: 250,
         mobile: 200
     };
 
@@ -15,7 +17,11 @@ const VolvoHSCard = () => {
     useEffect(() => {
         const updateImageHeight = () => {
             const windowWidth = window.innerWidth;
-            if (windowWidth >= 1024) {
+            if (windowWidth >= 1500) {
+                setImageHeight(ImageSizes.desktop_b);
+            } else if (windowWidth >= 1200) {
+                setImageHeight(ImageSizes.desktop_m);
+            } else if (windowWidth >= 1024) {
                 setImageHeight(ImageSizes.desktop);
             } else if (windowWidth >= 900) {
                 setImageHeight(ImageSizes.tablet);

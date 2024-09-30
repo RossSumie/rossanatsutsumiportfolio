@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import InitialCard from 'components/GeneralComponents/Cards/InitialCard';
-import Hemabot from 'components/GeneralComponents/Cards/Hemabot';
-import SPOD from 'components/GeneralComponents/Cards/SPOD';
+import Hemabot from 'components/GeneralComponents/Cards/HemabotCard';
+import SPOD from 'components/GeneralComponents/Cards/SPODCard';
 import Footer from 'components/GeneralComponents/Cards/Footer';
 import NavBar from 'components/GeneralComponents/NavBar';
 import VolvoHSCard from 'components/GeneralComponents/Cards/VolvoHSCard'; // Fixed typo in the import

@@ -16,10 +16,10 @@ const NavBar: React.FC<SeeMoreButtonProps> = ({ text, text1, text2 }) => {
             <S.Tab onClick={() => router.push('/VolvoHS')}>
                 <S.TabText>{text}</S.TabText>
             </S.Tab>
-            <S.Tab onClick={() => router.push('/VolvoHS')}>
+            <S.Tab onClick={() => router.push('/')}>
                 <S.TabText>{text1}</S.TabText>
             </S.Tab>
-            <S.Tab onClick={() => router.push('/VolvoHS')}>
+            <S.Tab onClick={() => router.push('/')}>
                 <S.TabText>{text2}</S.TabText>
             </S.Tab>
         </S.Container>

@@ -3,7 +3,7 @@ import SeeMoreButton from 'components/GeneralComponents/SeeMoreButton';
 import { useEffect, useState } from 'react';
 import * as S from './styles';
 
-const SPOD = () => {
+const SPODCard = () => {
     const ImageSizes = {
         desktop: 450,
         tablet: 300,
@@ -72,11 +72,7 @@ const SPOD = () => {
                             SUGAR international university network.
                         </S.BodyText>
                     </S.BodyCombinationContainer>
-                    <SeeMoreButton
-                        href="/VolvoHS"
-                        teal={false}
-                        text="Read More"
-                    />
+                    <SeeMoreButton href="" teal={false} text="Read More" />
                 </S.LeftContainer>
                 <S.RightContainer>
                     <img
@@ -90,4 +86,4 @@ const SPOD = () => {
     );
 };
 
-export default SPOD;
+export default SPODCard;

@@ -3,7 +3,7 @@ import SeeMoreButton from 'components/GeneralComponents/SeeMoreButton';
 import { useEffect, useState } from 'react';
 import * as S from './styles';
 
-const Hemabot = () => {
+const HemabotCard = () => {
     const ImageSizes = {
         desktop: 450,
         tablet: 300,
@@ -81,11 +81,11 @@ const Hemabot = () => {
                             with contaminated materials during transport.
                         </S.BodyText>
                     </S.BodyCombinationContainer>
-                    <SeeMoreButton href="/VolvoHS" teal text="Read More" />
+                    <SeeMoreButton href="" teal text="Read More" />
                 </S.RightContainer>
             </S.InnerContainer>
         </S.Container>
     );
 };
 
-export default Hemabot;
+export default HemabotCard;

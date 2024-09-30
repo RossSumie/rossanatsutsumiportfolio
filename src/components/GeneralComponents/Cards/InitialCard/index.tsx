@@ -4,10 +4,8 @@ import * as S from './styles';
 const InitialCard = () => {
     return (
         <S.Container>
-            <S.Title>Ross Tsutsumi's Web portfolio</S.Title>
-            <S.Subtitle>
-                scroll down or use the navigation bar on your left
-            </S.Subtitle>
+            <S.Title>Rossana (Ross) Tsutsumi's Web portfolio</S.Title>
+            <S.Subtitle>scroll down to see projects</S.Subtitle>
         </S.Container>
     );
 };
