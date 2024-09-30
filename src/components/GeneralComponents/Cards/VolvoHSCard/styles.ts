@@ -25,10 +25,12 @@ export const Container = styled.div`
     @media screen and (max-width: ${breakpoints.tablet}) {
         min-height: auto;
         padding: 24px 0 24px 0;
+        width: 90vw;
     }
     @media screen and (max-width: ${breakpoints.mobile}) {
         min-height: auto;
         padding: 16px 0 16px 0;
+        width: 95vw;
     }
 `;
 

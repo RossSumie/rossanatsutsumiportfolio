@@ -20,6 +20,17 @@ export const Container = styled.div`
     gap: 3rem;
     z-index: 2;
     padding: 0 32px 0 32px;
+    @media screen and (max-width: ${breakpoints.desktop}) {
+        width: 80vw;
+    }
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        margin-top: 5vh;
+        width: 90vw;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        margin-top: 2.5vh;
+        width: 95vw;
+    }
 `;
 
 export const Title = styled.h1`

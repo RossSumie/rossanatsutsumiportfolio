@@ -23,10 +23,12 @@ export const Container = styled.div`
     @media screen and (max-width: ${breakpoints.tablet}) {
         flex-direction: column;
         padding: 32px 16px 32px 16px;
+        width: 90vw;
     }
     @media screen and (max-width: ${breakpoints.mobile}) {
         flex-direction: column;
         padding: 32px 16px 32px 16px;
+        width: 95vw;
     }
 `;
 
