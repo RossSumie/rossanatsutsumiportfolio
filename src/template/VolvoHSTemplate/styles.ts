@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const breakpoints = {
     mobile: '600px',
     tablet: '950px',
-    desktop: '1024px'
+    desktop: '1024px',
+    desktop_b: '1500px'
 };
 
 export const Wrapper = styled.div`
@@ -20,7 +21,21 @@ export const Container = styled.div`
     border-radius: 16px;
     margin: 10vh 0 10vh 0;
     height: auto;
-    width: 80vw;
+    width: 70vw;
+    @media screen and (max-width: ${breakpoints.desktop_b}) {
+        width: 85vw;
+    }
+    @media screen and (max-width: ${breakpoints.desktop}) {
+        width: 80vw;
+    }
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        margin: 5vh 0 5vh 0;
+        width: 90vw;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        margin: 2.5vh 0 2.5vh 0;
+        width: 95vw;
+    }
 `;
 
 export const ContainerWrapper = styled.div`
@@ -41,6 +56,7 @@ export const ContainerWrapper = styled.div`
 export const ImageOverlayContainer = styled.div`
     position: relative;
     width: 100%;
+    z-index: 0;
 `;
 
 export const ImageOverlay = styled.div`

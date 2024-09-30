@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import BackButton from 'components/GeneralComponents/BackButton';
 import * as S from './styles';
 
 const VolvoHSTemplate = () => {
@@ -33,22 +34,20 @@ const VolvoHSTemplate = () => {
             }
         };
 
-        // Trigger once when component mounts
         handleResize();
 
-        // Add event listener
         window.addEventListener('resize', handleResize);
 
-        // Cleanup event listener on unmount
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []); // Empty dependency array so it runs only on mount
+    }, []);
 
     return (
         <S.Wrapper>
             <S.Container>
                 <S.ImageOverlayContainer>
+                    <BackButton teal={false} />
                     <S.ImageOverlay />
                     <img
                         src="/assets/VolvoCE_011.jpeg"
