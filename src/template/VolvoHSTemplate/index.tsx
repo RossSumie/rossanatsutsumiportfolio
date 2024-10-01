@@ -577,7 +577,9 @@ const VolvoHSTemplate = () => {
                                 </S.Body>
                             </>
                         )}
-                        <S.Title1>Final Presentation</S.Title1>
+                        <S.Title1 style={{ marginTop: '32px' }}>
+                            Final Presentation
+                        </S.Title1>
                         <S.Body>
                             The Volvo HS system was showcased at the Kyoto EXPO,
                             held at the Kyoto Institute of Technology. The
@@ -595,7 +597,25 @@ const VolvoHSTemplate = () => {
                             HS.
                         </S.Body>
                         <img
-                            src="/assets/VolvoCE_20.jpeg"
+                            src="/assets/VolvoCE_020.jpeg"
+                            height={ImageHeight}
+                            style={{
+                                objectFit: 'contain',
+                                marginBottom: '16px'
+                            }}
+                            alt="logo"
+                        />
+                        <img
+                            src="/assets/VolvoCE_021.jpeg"
+                            height={ImageHeight}
+                            style={{
+                                objectFit: 'contain',
+                                marginBottom: '16px'
+                            }}
+                            alt="logo"
+                        />
+                        <img
+                            src="/assets/VolvoCE_022.jpeg"
                             height={ImageHeight}
                             style={{
                                 objectFit: 'contain',
