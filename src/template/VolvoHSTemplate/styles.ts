@@ -101,6 +101,7 @@ export const Block = styled.div`
     gap: 32px;
     margin: 8px 0 16px 0;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     @media screen and (max-width: ${breakpoints.tablet}) {
         flex-direction: column;
@@ -136,6 +137,37 @@ export const Title1 = styled.h1`
     }
     @media screen and (max-width: ${breakpoints.mobile}) {
         font-size: 20px;
+    }
+`;
+export const Title2 = styled.h2`
+    font-family: 'Lato';
+    font-size: 28px;
+    color: ${({ theme }) => theme.colors.secondary.main};
+    margin-bottom: 16px;
+    @media screen and (max-width: ${breakpoints.desktop}) {
+        font-size: 24px;
+    }
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        font-size: 22px;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        font-size: 18px;
+    }
+`;
+export const Title3 = styled.h3`
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin: 16px 0 16px 0;
+    @media screen and (max-width: ${breakpoints.desktop}) {
+        font-size: 22px;
+    }
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        font-size: 18px;
+    }
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        font-size: 16px;
     }
 `;
 
