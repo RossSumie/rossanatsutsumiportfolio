@@ -594,46 +594,6 @@ const VolvoHSTemplate = () => {
                             problem, solution, and the technology behind Volvo
                             HS.
                         </S.Body>
-                        <S.Block>
-                            <img
-                                src="/assets/VolvoCE_012.jpeg"
-                                height={ImageHeight}
-                                style={{
-                                    objectFit: 'contain',
-                                    marginBottom: '16px'
-                                }}
-                                alt="logo"
-                            />
-                            <img
-                                src="/assets/VolvoCE_013.jpeg"
-                                height={ImageHeight}
-                                style={{
-                                    objectFit: 'contain',
-                                    marginBottom: '16px'
-                                }}
-                                alt="logo"
-                            />
-                        </S.Block>
-                        <S.Block>
-                            <img
-                                src="/assets/VolvoCE_018.jpeg"
-                                height={ImageHeight}
-                                style={{
-                                    objectFit: 'contain',
-                                    marginBottom: '16px'
-                                }}
-                                alt="logo"
-                            />
-                            <img
-                                src="/assets/VolvoCE_019.png"
-                                height={ImageHeight}
-                                style={{
-                                    objectFit: 'contain',
-                                    marginBottom: '16px'
-                                }}
-                                alt="logo"
-                            />
-                        </S.Block>
                         <img
                             src="/assets/VolvoCE_20.jpeg"
                             height={ImageHeight}
