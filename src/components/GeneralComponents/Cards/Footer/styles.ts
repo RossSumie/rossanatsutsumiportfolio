@@ -29,6 +29,7 @@ export const Container = styled.div`
         flex-direction: column;
         padding: 32px 16px 32px 16px;
         width: 95vw;
+        margin-bottom: 2.5vh;
     }
 `;
 

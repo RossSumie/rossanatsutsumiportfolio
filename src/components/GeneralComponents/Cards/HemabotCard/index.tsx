@@ -81,7 +81,7 @@ const HemabotCard = () => {
                             with contaminated materials during transport.
                         </S.BodyText>
                     </S.BodyCombinationContainer>
-                    <SeeMoreButton href="" teal text="Read More" />
+                    <SeeMoreButton href="/Hemabot" teal text="Read More" />
                 </S.RightContainer>
             </S.InnerContainer>
         </S.Container>

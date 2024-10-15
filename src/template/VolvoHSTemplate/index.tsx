@@ -163,7 +163,7 @@ const VolvoHSTemplate = () => {
                             concept.
                         </S.Body>
                         <S.Title1 style={{ marginTop: '32px' }}>
-                            Development
+                            Project Architecture
                         </S.Title1>
                         <S.Body>
                             The final solution was designed to address the issue
@@ -248,7 +248,7 @@ const VolvoHSTemplate = () => {
                             operations.
                         </S.Body>
                         <S.Title1 style={{ marginTop: '32px' }}>
-                            Technologies
+                            Software Development
                         </S.Title1>
                         <S.Title2>Mobile App</S.Title2>
                         <S.Body>
