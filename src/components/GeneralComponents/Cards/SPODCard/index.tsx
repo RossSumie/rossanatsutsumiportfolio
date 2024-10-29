@@ -72,7 +72,7 @@ const SPODCard = () => {
                             SUGAR international university network.
                         </S.BodyText>
                     </S.BodyCombinationContainer>
-                    <SeeMoreButton href="" teal={false} text="Read More" />
+                    <SeeMoreButton href="/SPOD" teal={false} text="Read More" />
                 </S.LeftContainer>
                 <S.RightContainer>
                     <img

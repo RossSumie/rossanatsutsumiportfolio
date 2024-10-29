@@ -11,7 +11,16 @@ const Footer = () => {
                         Professional Email: ross.sumie@gmail.com
                     </S.Subtitle>
                     <S.Subtitle>Academic Email: rossanasumie@usp.br</S.Subtitle>
-                    <S.Subtitle>LinkedIn: Rossana Tsutsumi</S.Subtitle>
+                    <S.Subtitle>
+                        LinkedIn:{' '}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="www.linkedin.com/in/rossana-tsutsumi"
+                        >
+                            Rossana Tsutsumi
+                        </a>
+                    </S.Subtitle>
                 </S.LeftContainer>
                 <S.RightOuter>
                     <img src="/assets/Logo_Poli.png" height={80} alt="logo" />

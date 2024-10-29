@@ -19,7 +19,7 @@ const NavBar: React.FC<SeeMoreButtonProps> = ({ text, text1, text2 }) => {
             <S.Tab onClick={() => router.push('/Hemabot')}>
                 <S.TabText>{text1}</S.TabText>
             </S.Tab>
-            <S.Tab onClick={() => router.push('/')}>
+            <S.Tab onClick={() => router.push('/SPOD')}>
                 <S.TabText>{text2}</S.TabText>
             </S.Tab>
         </S.Container>
