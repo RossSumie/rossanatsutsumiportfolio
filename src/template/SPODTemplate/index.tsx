@@ -280,6 +280,68 @@ const SPODTemplate = () => {
                             Summit, to adapt to future urban mobility needs and
                             evolving autonomous capabilities.
                         </S.Body>
+                        <S.Title1 style={{ marginTop: 32 }}>
+                            Final Presentation
+                        </S.Title1>
+                        <S.Body style={{ marginBottom: 32 }}>
+                            The final project presentation took place in San
+                            Francisco, CA, at the SUGAR EXPO. Each team gave a
+                            brief overview of their project, followed by an
+                            interactive booth setup where teams showcased their
+                            challenges and solutions to academics,
+                            professionals, and interested companies. Our team
+                            created a virtual reality experience in Unreal
+                            Engine to simulate the SPOD user experience and
+                            developed a website that calculated visitors&apos;
+                            carbon footprints to illustrate the benefits of
+                            switching to more sustainable transport options in
+                            daily life.
+                        </S.Body>
+                        <img
+                            src="/assets/SPOD_017.jpeg"
+                            height={ImageHeight}
+                            style={{
+                                objectFit: 'contain',
+                                marginBottom: '16px'
+                            }}
+                            alt="logo"
+                        />
+                        <img
+                            src="/assets/SPOD_015.jpeg"
+                            height={ImageHeight}
+                            style={{
+                                objectFit: 'contain',
+                                marginBottom: '16px'
+                            }}
+                            alt="logo"
+                        />
+                        <img
+                            src="/assets/SPOD_012.jpeg"
+                            height={ImageHeight}
+                            style={{
+                                objectFit: 'contain',
+                                marginBottom: '16px'
+                            }}
+                            alt="logo"
+                        />
+                        <S.Body>
+                            The website for the calculations, along with the
+                            developing team information and more project details
+                            can be found at{' '}
+                            <a
+                                href="https://spod-usp-tcd.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                the SPOD Connect Website
+                            </a>
+                            . It was developed using Next.js and TypeScript,
+                            with deployment handled by Vercel. A back-end was
+                            unnecessary since the information was not actually
+                            collected; the website served solely to demonstrate
+                            the emission savings achieved by using SPOD and to
+                            present academic informations.
+                        </S.Body>
                     </S.ContentContainer>
                 </S.ContainerWrapper>
             </S.Container>
